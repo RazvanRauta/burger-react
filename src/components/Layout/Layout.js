@@ -7,10 +7,12 @@ import React from 'react';
 import AUX from '../../hoc/_Aux'
 import cssClass from './Layout.css';
 import Toolbar from '../Navigation/Tollbar/Toolbar';
+import SideDrawer from "../Navigation/SideDrawer/SideDrawer";
 
 const layout = (props) => (
     <AUX>
         <Toolbar/>
+        <SideDrawer/>
         < main className={cssClass.Content}>
             {props.children}
         </main>
