@@ -1,18 +1,12 @@
 ## My Burger - React App
 
-###Description
+### Description
+
 A small app where you build and order a burger. The app was created by me for
 
 the purpose of learning and discovering the power of React.JS.
-###Desktop Version
-![Alt text](src/assets/images/MyBurgerDesktop.png?raw=true "Desktop")
 
-###Mobile Version
-![Alt text](src/assets/images/MyBurgerMobile.png?raw=true "Mobile")
-
-
-
-###Install
+### Install
 
 In the project directory run:
 
@@ -29,6 +23,25 @@ To see the running app, go to:
 #### comming soon...
 
 
+
+### Desktop Version
+
+
+<p align="center">
+  <img src="src/assets/images/MyBurgerDesktop.png"/>
+</p>
+
+
+---
+### Mobile version
+
+<p align="center">
+  <img src="src/assets/images/MyBurgerMobile.png"/>
+</p>
+
+
+
+---
+
+
 ###### Created by Razvan Rauta
-
-
