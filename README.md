@@ -15,12 +15,12 @@ In the project directory run:
 #### `npm start`
 
 To see the running app, go to:
-#### `http://localhost:3000/`
+#### `http://localhost:8081/`
 
 
 #### Link to demo server:
 
-#### comming soon...
+#### http://burger.gymrat.ro/
 
 
 

@@ -14,7 +14,7 @@ const toolbar = (props) => (
     <header className={cssClasses.Toolbar}>
         <DrawerToggle clicked={props.drawerToggleClicked}/>
         <div className={cssClasses.Logo}>
-            <Logo/>
+            <a href='/'> <Logo /></a>
         </div>
         <nav className={cssClasses.DesktopOnly}>
             <NavigationItems/>

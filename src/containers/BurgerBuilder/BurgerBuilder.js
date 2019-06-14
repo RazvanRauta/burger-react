@@ -13,6 +13,7 @@ import OrderSummary from "../../components/Burger/OrderSummery/OrderSummary";
 import axios from '../../axios-orders';
 import Spinner from "../../components/UI/Spinner/Spinner";
 import withErrorHandler from "../../hoc/withErrorHandler/withErrorHandler";
+import Swal from 'sweetalert2';
 
 const INGREDIENT_PRICES = {
     salad: 0.5,
@@ -128,6 +129,13 @@ class BurgerBuilder extends React.Component {
         axios.post('/orders.json', order)
             .then(response => {
                 this.setState({loading: false, purchasing: false});
+                Swal.fire({
+                    title: 'Good job!',
+                    text: 'Your Order has been successfully placed!',
+                    type: 'success',
+                    confirmButtonText: 'Thanks!',
+                    confirmButtonColor: '#CF8F2E',
+                });
             })
             .catch(error => {
                 this.setState({loading: false, purchasing: false})
