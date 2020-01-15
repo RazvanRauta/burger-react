@@ -18,9 +18,10 @@ To see the running app, go to:
 #### `http://localhost:8081/`
 
 
-#### Link to demo server:
+#### Link to aws server:
 
-#### http://burger.gymrat.ro/
+#### [https://burger.rrazvan.dev](https://burger.rrazvan.dev)
+
 
 
 
