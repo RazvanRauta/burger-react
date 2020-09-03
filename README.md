@@ -18,9 +18,9 @@ To see the running app, go to:
 #### `http://localhost:8081/`
 
 
-#### Link to aws server:
+#### Link to heroku server:
 
-#### [https://burger.rrazvan.dev](https://burger.rrazvan.dev)
+#### [https://burgers-react-app.herokuapp.com](https://burgers-react-app.herokuapp.com)
 
 
 
